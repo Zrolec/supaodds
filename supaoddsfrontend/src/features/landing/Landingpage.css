@@ -1,0 +1,40 @@
+
+.Bla {
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    z-index: 0;
+    top: 510px;
+    position: absolute;
+    margin-left: 45%;
+    width: 150px;
+    height: fit-content;
+    text-align: center;
+    background-color: rgb(238, 181, 12);
+}
+@media screen and (max-width: 740px) {
+    .Bla {
+        color: black;
+        font-size: 16px;
+        font-weight: 500;
+        z-index: 0;
+        top: -600px;
+        position: relative;
+        margin: 0 auto;
+        width: 170px;
+        height: fit-content;
+        text-align: center;
+        background-color: white;
+    }
+    .Mobland {
+        width: 90%;
+        height: 700px;
+        background-color: rgb(218, 184, 15);
+        z-index: 0;
+        position: relative;
+        margin: 0 auto;
+        border-radius: 10px;
+        top: 70px;
+    }
+
+}

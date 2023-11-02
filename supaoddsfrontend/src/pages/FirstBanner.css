@@ -1,0 +1,163 @@
+.Chel {
+    width: 1920px;
+    height: 400px;
+    object-fit: cover;
+}
+.Mob {
+    display: none;
+}
+.Pre {
+    display: none;
+}
+/* .Pree {
+    display: none;
+} */
+.Preee {
+    display: none;
+}
+/* Media query for mobile responsiveness */
+@media screen and (max-width: 740px) {
+    /* ...previous media query styles... */
+  
+    .Mob {
+      display: none;
+      width: 100%;
+      height: fit-content;
+      object-fit: cover;
+      position: absolute;
+    }
+
+    .flex-container {
+        display: flex;
+        width: 90%;
+        height: 100px;
+        background-color: #202124;
+        z-index: 0;
+        position: relative;
+        margin: auto;
+        border-radius: 10px;
+        top: 20px;
+    }
+
+    .Pre {
+        display: block;
+        width:25%;
+        font-size: 16px;
+        font-weight: 500;
+        color: black;
+        position: absolute;
+        z-index: 0;
+        text-align: center;
+        margin-top: -40px;
+        margin-left: 40px;
+        border-radius: 5px;
+        background-color: #ffffff;
+    }
+
+    /* .Pree {
+        display: block;
+        width: 110px;
+        font-size: 16px;
+        font-weight: 500;
+        color: black;
+        position: absolute;
+        z-index: 0;
+        text-align: center;
+        margin-top: -40px;
+        margin-left: 190px;
+        border-radius: 5px;
+        background-color: #ffffff;
+    } */
+
+    .Preee {
+        display: block;
+        width: 25%;
+        font-size: 16px;
+        font-weight: 500;
+        color: black;
+        position: absolute;
+        z-index: 0;
+        text-align: center;
+        margin-top: -40px;
+        margin-left: 240px;
+        border-radius: 5px;
+        background-color: #ffffff;
+    }
+    .Tre {
+        display: none;
+    }
+    /* .Tree {
+        display: none;
+    } */
+    .Treee {
+        display: none;
+    }
+
+    .Chel {
+        display: none;
+    }
+    .Webdiv {
+        display: none;
+    }
+}
+.Webdiv {
+    width: 1200px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    z-index: 0;
+    position: relative;
+    margin: 0 auto;
+    top: -350px;
+    opacity: 85%;
+}
+.Tre {
+    width: 180px;
+    height: fit-content;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    position: absolute;
+    text-align: center;
+    margin-top: -415px;
+    margin-left: 350px;
+    border-radius: 5px;
+    background-color: #fdc830;
+    z-index: 0;
+}
+
+/* .Tree {
+    width: 180px;
+    height: fit-content;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    position: absolute;
+    z-index: 0;
+    text-align: center;
+    margin-top: -415px;
+    margin-left: 850px;
+    border-radius: 5px;
+    background-color: #fdc830;
+} */
+
+.Treee {
+    width: 180px;
+    height: fit-content;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    position: absolute;
+    z-index: 0;
+    text-align: center;
+    margin-top: -415px;
+    margin-left: 1050px;
+    border-radius: 5px;
+    background-color: #fdc830;
+}
+
+.tinks {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }

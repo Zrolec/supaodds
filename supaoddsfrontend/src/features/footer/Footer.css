@@ -1,0 +1,51 @@
+/* footer.css */
+.Footer {
+    background-color: #202124;
+    width: 100%;
+    height: 200px;
+    margin-top: 500px;
+}
+.Dic {
+    text-align: center;
+    color: white;
+}
+.Odd {
+    padding-top: 25px;
+}
+.Tes {
+    display: block;
+}
+.Tess {
+    display: none;
+}
+.Oddmobile {
+    display: none;
+}
+
+@media screen and (max-width: 740px) {
+    .Footer {
+        background-color: #202124;
+        width: 90%;
+        height: 200px;
+        /* top: -420px; */
+        position: relative;
+        margin: 0 auto;
+    }
+    .Dic {
+        text-align: center;
+        color: white;
+    }
+    .Oddmobile {
+        display: block;
+        padding-top: 10px;
+    }
+    .Tes {
+        display: none!important;
+    }
+    .Tess {
+        display: block;
+    }
+    .Odd {
+        display: none;
+    }
+}

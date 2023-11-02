@@ -1,0 +1,81 @@
+.modal-size {
+    width: 50% !important;
+    height: 500px !important;
+    margin-left: 24%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 4%;
+    border-style: solid !important;
+    border-color: coral !important;
+}
+.modal-content {
+    align-items: center;
+    margin-top: 3%;
+}
+.modal-close {
+    position: absolute;
+    display: flex;
+    padding-top: 2%;
+    margin-left: 45%;
+}
+.modal-header {
+    margin-top: 1%;
+    padding-bottom: 1%;
+}
+.input-box {
+    width: 400px;
+    height: 30px;
+    border-color: rgb(96, 92, 92);
+    border-radius: 3px;
+    background-color: rgb(211, 205, 205);
+}
+.submitbtn {
+    width: 180px;
+    color: white;
+    height: fit-content;
+    margin: 10px;
+    border-radius: 2px;
+    background-color: teal;
+}
+
+/* Media query for mobile responsiveness */
+@media (max-width: 740px) {
+    .modal-size {
+        width: 80% !important;
+        height: 500px !important;
+        border-radius: 3px;
+        background-color: rgb(255, 255, 255);
+        margin-left: 9%;
+        margin-top: 50%;
+        z-index: 0;   
+    }
+    .modal-content {
+        align-items: center;
+        margin-top: 50%;
+        z-index: 1;
+    }
+    .modal-header {
+        margin-top: 10%;
+        padding-bottom: 5%;
+    }
+    .modal-close {
+        position: absolute;
+        display: flex;
+        padding-top: 2%;
+        margin-left: 2%;
+    }
+    .input-box {
+        width: 250px;
+        height: 30px;
+        border-color: rgb(96, 92, 92);
+        border-radius: 3px;
+        background-color: rgb(211, 205, 205);
+    }
+    .submitbtn {
+        width: 180px;
+        color: white;
+        height: fit-content;
+        margin: 10px;
+        border-radius: 2px;
+        background-color: teal;
+    }
+}

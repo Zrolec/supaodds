@@ -1,0 +1,103 @@
+/* For screens with width up to 768px (mobile) */
+@media screen and (max-width: 740px) {
+    /* Add your responsive styles here */
+    .modal-overlay {
+        width: 90% !important;
+        height: 500px !important;
+        background-color: whitesmoke;
+        position: relative;
+        margin-left: 20px;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+    .closebtn {
+        position: relative;
+        margin-left: 370px;
+        margin-top: -60px;
+        padding-bottom: 10px;
+    }
+    .modal-header {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .modal-body {
+        text-align: center;
+        padding: 20px;
+    }
+    .footerbtn {
+        margin-right: 50px;
+        margin-top: 10%;
+    }
+    /* default styling for all table sizes */
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 20px;
+      }
+      
+      td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+      
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+  }
+  
+  /* For screens with width between 769px and 1024px (tablet) */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    /* Add your responsive styles here */
+  }
+  
+  /* For screens with width above 1024px (desktop) */
+  @media (min-width: 1025px) {
+    /* Add your responsive styles here */
+    .modal-overlay {
+        width: 70% !important;
+        height: 500px !important;
+        background-color: whitesmoke;
+        position: relative;
+        border-radius: 10px;
+        margin-left: 15%;
+        margin-top: 4%;
+    }
+    .closebtn {
+        position: relative;
+        margin-left: 65%;
+        margin-top: -3%;
+    }
+    .modal-header {
+        text-align: center;
+        padding-bottom: 20px;
+        margin-top: 4%;
+    }
+    .modal-body {
+        text-align: center;
+        padding: 20px;
+    }
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 60%;
+        margin: 0 auto;
+      }
+      
+      td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+      
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+      .footerbtn {
+        margin-right: 17%;
+        margin-top: 1%;
+    }
+  }
+  

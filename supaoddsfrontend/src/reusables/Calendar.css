@@ -1,0 +1,43 @@
+@media screen and (max-width: 740px) {
+    .cali {
+        width: 25%;
+        font-size: 16px;
+        font-weight: 500;
+        color: black;
+        position: absolute;
+        text-align: center;
+        margin-top: -40px;
+        margin-left: 140px;
+        border-radius: 5px;
+        background-color: white;
+    }
+    .ali {
+        width: 80%;
+        height: 28px;
+        border-radius: 5px;
+        text-align: center;
+        background-color: white;
+    }
+}
+
+/* For screens with width above 1024px (desktop) */
+@media screen and (min-width: 1024px) {
+    .cali {
+        width: 180px;
+        height: fit-content;
+        font-size: 20px;
+        font-weight: 500;
+        color: black;
+        position: absolute;
+        text-align: center;
+        margin-top: -415px;
+        margin-left: 700px;
+        border-radius: 5px;
+    }
+    .ali {
+        width: 180px;
+        background-color: #fdc830;
+        border-radius: 5px;
+        text-align: center;
+    }
+}

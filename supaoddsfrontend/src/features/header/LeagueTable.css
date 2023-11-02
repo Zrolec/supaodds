@@ -1,0 +1,41 @@
+.tabula {
+    width: 75%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    overflow-x: auto;
+}
+.pp {
+    color: white;
+}
+
+.tabula td {
+    background-color: rgb(218, 184, 15);
+}
+.tabula thead {
+    color: white;
+}
+.hl {
+    text-align: center;
+    color: white;
+    font-size: x-large;
+    padding: 1%;
+}
+
+/* Mobile styles for smaller screens */
+@media screen and (max-width: 740px) {
+    .tabula {
+      font-size: 16px; /* Reduce font size for smaller screens */
+      overflow-x: auto;
+      width: 94%;
+      position: relative;
+      margin: 0 auto 430px;
+      border: 4px solid #ddd;
+      display: block;
+    }
+  
+    .tabula th,
+    .tabula td {
+      padding: 6px; /* Reduce padding for smaller screens */
+    }
+    
+  }
